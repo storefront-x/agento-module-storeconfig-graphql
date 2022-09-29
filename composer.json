@@ -1,0 +1,24 @@
+{
+    "name": "storefront-x/magento-module-storeconfig-graphql",
+    "description": "Magento 2 module allows to extend which of config keys can be returned in StoreConfig GQL endpoints, extension for Magento Store GraphQL module",
+    "type": "magento2-module",
+    "homepage": "https://github.com/storefront-x/magento-module-storeconfig-graphql",
+    "require": {
+        "php": "~5.5.0|~5.6.0|~7.0.0|~7.1.0|~7.3.0|~7.4.0|~8.1.0",
+        "magento/framework": "^103.0.2",
+        "magento/module-store-graph-ql": "^100.4.2",
+        "magento/magento-composer-installer": "^0.3.0"
+    },
+    "license": [
+        "MIT"
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "StorefrontX\\StoreConfigGQL\\": ""
+        }
+    }
+}
+
