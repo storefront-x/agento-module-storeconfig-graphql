@@ -4,7 +4,7 @@
     "type": "magento2-module",
     "homepage": "https://github.com/storefront-x/magento-module-storeconfig-graphql",
     "require": {
-        "php": "^5.5 || ^7.0 || ^8.1",
+        "php": "^7.0 || ^8.1",
         "magento/framework": "^103.0.2",
         "magento/module-store-graph-ql": "^100.4.2"
     },
